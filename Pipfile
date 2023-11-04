@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+homeassistant-historical-sensor = "==2.0.0rc2"
+
+[dev-packages]
+ipython = "*"
+ipdb = "*"
+homeassistant-historical-sensor = "==2.0.0rc2"
+homeassistant = ">= 2023.6.0"
+
+[requires]
+python_version = "3"
