@@ -1,0 +1,20 @@
+{
+  "domain": "solarhistory",
+  "name": "GAF Solar Energy Production",
+  "codeowners": [
+    "@gnmerritt"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "recorder"
+  ],
+  "documentation": "https://github.com/gnmerritt/ha-solar-history",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/gnmerritt/ha-solar-history/issues",
+  "requirements": [
+    "ha-solar-history==1.0.0",
+    "homeassistant-historical-sensor==2.0.0rc2"
+  ],
+  "version": "0.0.1"
+}
