@@ -1,0 +1,4 @@
+ipython
+ipdb
+homeassistant-historical-sensor==2.0.0rc2
+homeassistant>=2023.6.0
